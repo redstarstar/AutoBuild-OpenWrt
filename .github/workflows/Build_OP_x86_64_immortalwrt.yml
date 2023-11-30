@@ -76,7 +76,6 @@ jobs:
       working-directory: ./openwrt
       run: |
         git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-        make menuconfig #choose LUCI->Theme->Luci-theme-argon
 
     - name: Configuration Customization - Build_x86_64
       env:
